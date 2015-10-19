@@ -1,0 +1,28 @@
+body {
+    background-color: LightGray;
+}
+
+
+div {
+    border: 1px solid Chocolate;
+}
+
+.nav li{
+	display: inline-block;
+	padding-left: 2em;
+	font-family: Arial, sans-serif;
+	color:#888888;
+}
+
+.active{
+	font-weight: bold;
+	color:#404040;
+}
+
+.nav ul{
+	text-align: center;
+}
+
+.logo{
+	max-width: 20px;
+}
