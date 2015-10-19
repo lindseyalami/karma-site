@@ -7,11 +7,19 @@ div {
     border: 1px solid Chocolate;
 }
 
+.header{
+	position: fixed;
+	background-color: #ffffff;
+	width: 100%;
+}
+
+
 .nav li{
 	display: inline-block;
 	padding-left: 2em;
 	font-family: Arial, sans-serif;
 	color:#888888;
+	top: 0;
 }
 
 .active{
@@ -21,6 +29,8 @@ div {
 
 .nav ul{
 	text-align: center;
+
+	
 }
 
 .logo{
