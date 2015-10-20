@@ -1,38 +1,61 @@
 body {
-    background-color: LightGray;
+    font-family: Roboto;
 }
 
-
-div {
-    border: 1px solid Chocolate;
-}
 
 .header{
 	position: fixed;
 	background-color: #ffffff;
 	width: 100%;
+	
 }
 
 
-.nav li{
-	display: inline-block;
-	padding-left: 2em;
-	font-family: Arial, sans-serif;
-	color:#888888;
-	top: 0;
+
+.header > .content{
+	margin: 0 auto;
+    width: 720px;
+    height: 70px;
+    padding: 0px 15px;
+	
+
 }
 
-.active{
-	font-weight: bold;
-	color:#404040;
-}
-
-.nav ul{
-	text-align: center;
+.header .links { 
+	float: right;
+	color:#838994;
+	margin-top: 25px;
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 0.03em;
 
 	
 }
 
-.logo{
-	max-width: 20px;
+.header .links li{
+	display: inline-block;
+	margin-left: 25px;
+	
+	
 }
+
+.header .links .active{
+	font-weight: 500;
+	color:#4c5058;
+}
+
+.header .links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
+
+.logo{
+padding-top: 15px;
+
+}
+
+
+
+
+
+
