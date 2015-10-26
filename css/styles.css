@@ -7,14 +7,16 @@ body {
 	position: fixed;
 	background-color: #ffffff;
 	width: 100%;
+	height: 70px;
+	z-index: 9999;
 	
 }
+
 
 
 .content{
 	margin: 0 auto;
     width: 720px;
-    height: 70px;
     padding: 0px 15px;
 	
 }
@@ -66,9 +68,8 @@ body {
 	height: 45.938rem;
 	display: block;
 	overflow: auto;
-	
 	width: 100%;
-	z-index: -1;
+
 }
 
 .intro .content{
@@ -78,17 +79,18 @@ body {
 	top: 500px;
 }
 
-.intro h1{
+h1{
 	margin-top: 17.5rem;
     font-size: 3.125rem;
     font-weight: 300;
 }
 
 
-.intro h3{
+h3{
 	margin-top: 1.25rem;
     font-size: 1.563rem;
     font-weight: 300;
+
 }
 
 
@@ -103,17 +105,84 @@ body {
     font-weight: 300;
 }
 
-.box{
-	width: 10.688rem;
+
+.cases {
+	height: 30.938rem;
+	width: 100%;
+}
+
+.box li{
+
 	display: inline-block;
+	width:30%;
+	vertical-align: top;
 
 }
+
+.icons {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px; 
+	/* width and height can be anything, as long as they're equal */
+}
+
+
 
 
 .cases .content img{
-	width: 9.688rem;
+	width: 8.688rem;
+
 }
 
 
+.social{
+	text-align: center;
+}
+
+
+.social h5{
+	font-weight: 300;
+	color: #838994;
+	
+}
+
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.social .icons >li{
+	display:inline-block;
+	border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid #eaebec;
+
+ }
+
+.social .twitter {
+    color: #55acee;
+}
+
+.social .facebook {
+    color: #4c66a4;
+}
+
+.social .instagram {
+    color: #3f729b;
+}
+
+.fa {
+	display: inline-block;
+	
+	
+	 
+}
+	
+ 
 
 
