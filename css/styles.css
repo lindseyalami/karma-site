@@ -103,6 +103,17 @@ body {
     font-weight: 300;
 }
 
+.box{
+	width: 10.688rem;
+	display: inline-block;
+
+}
+
+
+.cases .content img{
+	width: 9.688rem;
+}
+
 
 
 
