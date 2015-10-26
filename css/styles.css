@@ -11,15 +11,14 @@ body {
 }
 
 
-
-.header > .content{
+.content{
 	margin: 0 auto;
     width: 720px;
     height: 70px;
     padding: 0px 15px;
 	
-
 }
+
 
 .header .links { 
 	float: right;
@@ -28,33 +27,81 @@ body {
 	font-weight: 300;
 	font-size: 16px;
 	letter-spacing: 0.03em;
-
 	
 }
+
 
 .header .links li{
 	display: inline-block;
 	margin-left: 25px;
-	
-	
+
+		
 }
+
 
 .header .links .active{
 	font-weight: 500;
 	color:#4c5058;
 }
 
+
 .header .links li:hover {
 	cursor: pointer;
 	color: #333333;
 }
 
+
 .logo{
-padding-top: 15px;
+	padding-top: 15px;
 
 }
 
 
+
+.intro {
+	background-image: url('../images/first-background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height: 45.938rem;
+	display: block;
+	overflow: auto;
+	
+	width: 100%;
+	z-index: -1;
+}
+
+.intro .content{
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	top: 500px;
+}
+
+.intro h1{
+	margin-top: 17.5rem;
+    font-size: 3.125rem;
+    font-weight: 300;
+}
+
+
+.intro h3{
+	margin-top: 1.25rem;
+    font-size: 1.563rem;
+    font-weight: 300;
+}
+
+
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    width: 9.688rem;
+    background-color: #f15a29;
+    font-weight: 300;
+}
 
 
 
