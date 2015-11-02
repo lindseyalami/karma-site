@@ -6,6 +6,7 @@ body {
 .header{
 	position: fixed;
 	background-color: #ffffff;
+	padding: 0px 15px;
 	width: 100%;
 	height: 70px;
 	z-index: 9999;
@@ -13,12 +14,10 @@ body {
 }
 
 
-
 .content{
 	margin: 0 auto;
     width: 720px;
-    padding: 0px 15px;
-	
+
 }
 
 
@@ -36,7 +35,6 @@ body {
 .header .links li{
 	display: inline-block;
 	margin-left: 25px;
-
 		
 }
 
@@ -44,17 +42,20 @@ body {
 .header .links .active{
 	font-weight: 500;
 	color:#4c5058;
+
 }
 
 
 .header .links li:hover {
 	cursor: pointer;
 	color: #333333;
+
 }
 
 
 .logo{
 	padding-top: 15px;
+
 
 }
 
@@ -72,17 +73,20 @@ body {
 
 }
 
+
 .intro .content{
 	display: block;
 	color: #ffffff;
 	text-align: center;
-	top: 500px;
+
 }
+
 
 h1{
 	margin-top: 17.5rem;
     font-size: 3.125rem;
     font-weight: 300;
+
 }
 
 
@@ -103,40 +107,53 @@ h3{
     width: 9.688rem;
     background-color: #f15a29;
     font-weight: 300;
+
+}
+
+.cases{
+	margin-top: 100px;
+	margin-bottom: 50px;
 }
 
 
-.cases {
-	height: 30.938rem;
-	width: 100%;
+
+
+.cases h2{
+	text-align: center;
+	font-weight: 300;
+    font-size: 2.75rem;
+
 }
+
+.cases h3{
+	text-align: center;
+	font-weight: 400;
+    font-size: 1.563rem;
+	
+}
+
 
 .box li{
-
+	margin: 0 auto;
 	display: inline-block;
-	width:30%;
 	vertical-align: top;
+	width:220px;
 
 }
+
+
+.box img{
+	width: 8.688rem;
+	padding-left: 35px;
+
+}
+
 
 .icons {
 	border-radius: 50%;
 	width: 50px;
 	height: 50px; 
-	/* width and height can be anything, as long as they're equal */
-}
 
-
-
-
-.cases .content img{
-	width: 8.688rem;
-
-}
-
-
-.social{
-	text-align: center;
 }
 
 
@@ -155,33 +172,58 @@ hr {
 
 }
 
-.social .icons >li{
+
+.icons{
+	width:200px;
+	margin: 0 auto;
+
+}
+
+
+.icons >li{
+	margin: 0 auto;
 	display:inline-block;
 	border-radius: 1.25rem;
     width: 2.5rem;
     height: 2.5rem;
     border: 1px solid #eaebec;
+   	margin-left: 10px;
 
  }
 
+h5{
+	text-align: center;
+	
+}
+
+
 .social .twitter {
     color: #55acee;
+    text-align: center;
+
 }
+
 
 .social .facebook {
     color: #4c66a4;
+    text-align: center;
+
 }
+
 
 .social .instagram {
     color: #3f729b;
+    text-align: center;
+
 }
 
-.fa {
-	display: inline-block;
-	
-	
-	 
+i{
+	padding-top: 10px;
 }
+
+
+
+
 	
  
 
